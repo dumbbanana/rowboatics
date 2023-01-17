@@ -99,6 +99,7 @@ void setup(){
   pinMode(in2B, OUTPUT);
 }
 
+# For reverse left and reverse right
 bool inRange1 (int ch1Value)
 {
   return (ch1Value >= -10 && ch1Value <= 10);
